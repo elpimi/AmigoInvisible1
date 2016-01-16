@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Secret Santa</string>
+    <string name="title_activity_main">Main Activity</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_main3">Main3Activity</string>
+
+
+    <string name="action_settings">Help</string>
+
+    <string name="tv_nombreapp">APP Secret Santa</string>
+
+    <string name="fondoamigos">Background</string>
+    <string name="Autor">Created by: Alfonso T. Pimienta García</string>
+    <string name="fecha">15 December 2015</string>
+    <string name="tv_introducedatos">Push buttons by order</string>
+    <string name="Siguiente">Next</string>
+
+    <string name="Anterior">Back</string>
+
+    <string name="ayuda">Help</string>
+    <string name="autor">Created by</string>
+    <string name="salir">Exit</string>
+
+    <string name="amigos">Players</string>
+    <string name="generar">Play</string>
+    <string name="siguiente">Next</string>
+
+
+
+</resources>

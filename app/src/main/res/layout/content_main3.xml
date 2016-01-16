@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="es.virgendelsoterrano.elpimi.amigoinvisible.Main3Activity"
+    tools:showIn="@layout/activity_main3">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/scrollView3" >
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <TextView
+                android:text=""
+                android:id="@+id/tituloapp3"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:layout_width="350dp"
+                android:layout_height="40dp"
+                android:background="@drawable/mis_botones"
+                android:shadowColor="#0A4018"
+                android:shadowDx="2"
+                android:shadowDy="1"
+                android:shadowRadius="5"
+                android:gravity="center_vertical|center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="@string/fecha"
+                android:id="@+id/tvinfo"
+                android:layout_centerHorizontal="true"
+                android:textColor="#8d3333"
+                android:singleLine="false"
+                android:background="#faf2e0"
+                android:textAlignment="center" />
+
+            <Button
+                android:text="@string/Anterior"
+                android:id="@+id/btn_a3_atras"
+                android:textColor="#d7dded"
+                android:layout_marginBottom="44dp"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal"
+                android:textSize="20sp"
+                android:layout_width="150dp"
+                android:layout_height="45dp"
+                android:background="@drawable/mis_botones"
+                android:shadowColor="#A8A8A8"
+                android:shadowDx="2"
+                android:shadowDy="1"
+                android:shadowRadius="5"
+                android:layout_margin="4dp" />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

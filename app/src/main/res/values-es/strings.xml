@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Amigo Invisible</string>
+    <string name="title_activity_main">Main Activity</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_main3">Main3Activity</string>
+
+
+    <string name="action_settings">Ayuda</string>
+
+    <string name="tv_nombreapp">APP AMIGO INVISIBLE</string>
+
+    <string name="fondoamigos">Fondo amigos</string>
+    <string name="Autor">Autor: Alfonso T. Pimienta García</string>
+    <string name="fecha">15 diciembre 2015</string>
+    <string name="tv_introducedatos">Pulsa en los botones por orden de aparición</string>
+    <string name="Siguiente">Siguiente</string>
+
+    <string name="Anterior">Anterior</string>
+
+    <string name="ayuda">Ayuda</string>
+    <string name="autor">Autor</string>
+    <string name="salir">Salir</string>
+
+    <string name="amigos">Amigos</string>
+    <string name="generar">Generar</string>
+    <string name="siguiente">Siguiente</string>
+
+
+
+</resources>

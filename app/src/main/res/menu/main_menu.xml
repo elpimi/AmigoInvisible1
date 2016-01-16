@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="es.virgendelsoterrano.elpimi.amigoinvisible.MainActivity">
+
+    <item
+        android:id="@+id/musica"
+        android:icon="@drawable/ic_action_off_musica"
+        android:orderInCategory="1"
+        android:title="musica"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/ayuda"
+        android:orderInCategory="2"
+        android:title="@string/ayuda"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/autor"
+        android:orderInCategory="3"
+        android:title="@string/autor"
+        app:showAsAction="never"
+        android:icon="@drawable/ic_action_salir"/>
+    <item
+        android:id="@+id/salir"
+        android:orderInCategory="100"
+        android:title="@string/salir"
+        android:icon="@android:drawable/ic_menu_close_clear_cancel"
+         />
+
+
+    <item
+        android:id="@+id/MnuOpc3"
+        android:title="Opcion3">
+        <menu>
+            <group android:id="@+id/group_opcion3">
+                <item
+                    android:id="@+id/SubMnuOpc1"
+                    android:title="Opcion 3.1"
+                    android:icon="@android:drawable/ic_menu_close_clear_cancel"/>
+                <item
+                    android:id="@+id/SubMnuOpc2"
+                    android:title="Opcion 3.2" />
+            </group>
+        </menu>
+    </item>
+
+
+</menu>
